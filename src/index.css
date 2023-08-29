@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    color: white
+}
+
+.cta-btn{
+    @apply py-2 px-8 text-lg font-bold m-3 rounded-lg text-orange-700 bg-white cursor-pointer hover:bg-orange-700 hover:text-white hover:border-white hover:border-2 transition duration-700 ease-out
+}
+
+
+.nav-list li{
+    cursor: pointer;
+}
+
+.card{
+    @apply rounded-md px-8 py-5 bg-white text-orange-700 p-5
+}
