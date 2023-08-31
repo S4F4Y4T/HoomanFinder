@@ -8,8 +8,10 @@ export default function Navbar() {
                 <Link to="/" className='px-3'><span>Home</span></Link>
                 <Link to="/about" className='px-3'><span>About</span></Link>
                 <Link to="/fact" className='px-3'><span>Fact</span></Link>
+                <Link to="/site-settings" className='px-3'><span>Customize</span></Link>
 
-                <a className='cta-btn'>Join Now</a>
+                <Link to="/join" className='cta-btn'>Join Now</Link>
+                {/* <Link to="/dashboard" className='cta-btn'>Dashboard</Link> */}
             </ul>
         </nav>
     )

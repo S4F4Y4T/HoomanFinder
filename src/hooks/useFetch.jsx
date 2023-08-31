@@ -32,6 +32,10 @@ const useFetch = (url) => {
     }
 
     const reFetchFact = () => {
+        setIspending(true)
+        setError(null)
+        setData(null)
+
         fetchFact()
     }
 

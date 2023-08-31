@@ -1,5 +1,3 @@
-import '../App.css'
-
 function Feature({count , title}) {
   return (
     <div className="card">

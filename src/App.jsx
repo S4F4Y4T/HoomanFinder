@@ -4,38 +4,37 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 import Home from './pages/Home'
 import Fact from './pages/Fact'
 import About from './pages/About'
+import JOIN from './pages/Join'
+import Dashboard from './pages/dashboard/Home'
+
+import Settings from './pages/admin/Settings'
 
 function App() {
   return (
     <div className='container mx-auto'>
 
       <Router>
+
         <Navbar />
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/fact' element={<Fact />} />
           <Route path='/about' element={<About />} />
+          <Route path='/join' element={<JOIN />} />
+          <Route path='/dashboard' element={<Dashboard />} />
+
+          <Route path='/site-settings' element={<Settings />} />
         </Routes>
       </Router>
 
-      <footer className='grid grid-cols-3 p-8 gap-8'>
-        <div>
-          <h1 className='text-3xl font-bold pb-5'>HoomanFinder</h1>
-          <p className='text-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto, beatae nulla numquam minima odit. Minus porro nam nemo sequi provident nesciunt architecto voluptates. Sit facilis repellat mollitia soluta officia!</p>
-        </div>
+      <Footer />
 
-        <div></div>
-
-        <ul className='flex justify-between items-center font-bold'>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Email</li>
-        </ul>
-      </footer>
     </div>
   )
 }
