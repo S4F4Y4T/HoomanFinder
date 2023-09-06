@@ -7,7 +7,7 @@ body{
 }
 
 .cta-btn{
-    @apply py-2 px-8 text-lg font-bold m-3 rounded-lg text-orange-700 bg-white cursor-pointer hover:bg-orange-700 hover:text-white hover:border-white hover:border-2 transition duration-700 ease-out
+    @apply py-2 sm:px-8 text-lg font-bold m-3 rounded-lg text-[#3E3D3C] bg-white cursor-pointer hover:bg-[#3E3D3C] hover:text-white hover:border-white hover:border-2 transition duration-700 ease-out xs:px-5
 }
 
 
@@ -16,5 +16,9 @@ body{
 }
 
 .card{
-    @apply rounded-md px-8 py-5 bg-white text-orange-700 p-5
+    @apply border-white border-2 rounded-lg px-8 py-12 bg-[#2A2927] text-[#3E3D3C] p-5
+}
+
+.form{
+    @apply rounded-lg bg-[#2A2927]
 }

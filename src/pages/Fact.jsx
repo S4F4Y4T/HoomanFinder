@@ -17,9 +17,9 @@ const Fact  = () => {
 
     return (<>
 
-      <section className='flex items-center p-8 flex-col w-4/5 mx-auto min-h-screen'>
+      <section className='flex items-center p-8 flex-col md:w-4/5 mx-auto min-h-screen xs:w-full'>
 
-        <div className="grid grid-cols-2 divide-x-2 divide-white border-2 border-white p-[20px]">
+        <div className="grid md:grid-cols-2 md:divide-x-2 divide-white border-2 border-white form md:p-20 xs:grid-cols-1 xs:p-5">
         <div className="pr-5">
         <div className="mb-8 flex justify-center items-center flex-col">
           <h2 className='font-bold p-3 text-4xl'>Cat Facts</h2>
