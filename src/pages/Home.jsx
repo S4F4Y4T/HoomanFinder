@@ -18,7 +18,7 @@ const Home  = () => {
 
       <section className='sm:my-10 text-center sm:py-20 xs:my-10 xs:py-10'>
           <h2 className='font-bold mb-5 text-4xl'>Why US</h2>
-          <p className='mb-8 text-lg text-gray-400'>Because we care about pet more than you</p>
+          <p className='mb-8 text-lg text-gray-400'>We are trusted by enromous number of user</p>
           <div className='grid lg:grid-cols-3 gap-5 sm:mt-20 xs:mt-10 xs:grid-cols-1 '>
 
             <Feature count="1" title="Safety and Trust" icon={faShield}></Feature>
