@@ -5,6 +5,13 @@ Welcome to the HoomanFinder! Our platform aims to connect pet owners looking to 
 
 Visit Here: https://hoomanfinder.web.app/
 
+## Technology
+
+- Reactjs
+- Tailwindcss
+- Firebase
+- Redux-Toolkit
+
 ## Authors
 
 - [@S4F4Y4T](https://www.github.com/S4F4Y4T)
