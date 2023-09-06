@@ -1,8 +1,46 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# HoomanFinder
 
-Currently, two official plugins are available:
+Welcome to the HoomanFinder! Our platform aims to connect pet owners looking to rehome their pets with individuals or families who are interested in adopting pets. This platform serves as a centralized hub for pet lovers, making it easier to find loving homes for pets in need.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Authors
+
+- [@S4F4Y4T](https://www.github.com/S4F4Y4T)
+
+
+## Prerequisite
+
+- Nodejs
+- Vite
+
+## Screenshots
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/S4F4Y4T/HoomanFinder
+```
+
+Go to the project directory
+
+```bash
+  cd HoomanFinder
+```
+
+Run the project locally
+
+```bash
+  npm run dev
+```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
